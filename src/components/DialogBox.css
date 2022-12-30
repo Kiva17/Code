@@ -1,0 +1,14 @@
+@media screen and (max-width: 922px) {
+
+    .FilterBox {
+        display: none !important;
+        background-color: #E9F5E1 !important;
+    }
+
+    .CardBox {
+        display: flex !important;
+        justify-content:flex-end;
+        min-width: fit-content;
+    }
+
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* cursor:auto; */
+}
+
+.ProductCard {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #E9F5E1;
+    /* box-sizing: border-box; */
+}
+
+.card1:hover {
+    background: black;
+
+}
+
+
+
+
+.Carddetails {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    line-height: 16px !important;
+    letter-spacing: 0em !important;
+    text-align: left !important;
+
+
+}
+
+.CardBox {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: #E9F5E1;
+
+}
+
+.FilterBox {
+    background-color: #E9F5E1 !important;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.Filter {
+    background-color: #E9F5E1 !important;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: none;
+}
+
+.card:hover {
+    /* -ms-transform: skewY(0.5deg); */
+    transform: skewY(1deg);
+}
+
+
+@media screen and (max-width: 899px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    .FilterBox {
+        display: none !important;
+        background-color: #E9F5E1 !important;
+    }
+
+    .Filter {
+        display: block !important;
+        background-color: #E9F5E1 !important;
+    }
+
+    .CardBoxGrid {
+        display: flex !important;
+        justify-content: center;
+    }
+}
